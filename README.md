@@ -62,6 +62,8 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [FBInfer](https://fbinfer.com/): a static analysis tool that includes measuring of complexity of code.
   - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html): a blogpost from Brendan Gregg, which list useful tools for performance monitoring or debugging.
+  - [PerfCI](https://github.com/JesperStromblad/perfci): a toolchain for automated performance testing under Continuous Integration.
+  - [PyVyPR](https://pyvypr.github.io/home/): a prototype framework for creating runtime analysis of Python code.
   - [Static Analysis Tools](https://github.com/analysis-tools-dev/static-analysis): a curated list of static analysis tools and linters for all programming languages.
   - [flamescope](https://github.com/Netflix/flamescope): a visualization tool for exploring different time ranges as Flame Graphs.
   - [likwid](https://github.com/RRZE-HPC/likwid): a performance monitoring and benchmarking suite.
@@ -75,6 +77,7 @@ Curated list of performance assets, such as links to profilers, performance anal
 
 ## Other (useful) assets
 
+  - [bootlin](https://elixir.bootlin.com/linux/latest/source): cross reference for linux kernel sources and headers.
   - [Font Awesome](https://fontawesome.com/): a lots of free icons to be used in visualizations.
 
 ## Contributing
