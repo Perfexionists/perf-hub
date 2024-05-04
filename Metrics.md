@@ -12,7 +12,7 @@ Curated list of various metrics, key performance indicators or other measurable 
   - *Conflict Miss Score (CMS)*: for given cache set $s$, it is the ration $CMS_s =
       \frac{MissRatio_s}{MissRatio_{avg}}$, where $MissRatio_s$ is cache miss rate of cache set $s$
       and $MissRatio_{avg}$ is the average miss ratio. Then, *CMS* is computed as $CMS =
-      \sum{i=0}{n}(CMS_{S_i} \times c^i)$, where $c$ is reduction coefficient, to adjust the CMS of
+      \sum_{i=0}^{n}(CMS_{S_i} \times c^i)$, where $c$ is reduction coefficient, to adjust the CMS of
       each cache set in relation to its ranking by miss ration. By default $c = 0.5$, which ensures
       that the cache set with the highest miss ratio recieves the full CMS score, while each
       subsequent set's score is reduced by half. The rationale is that allocator-induced conflicts
@@ -21,7 +21,7 @@ Curated list of various metrics, key performance indicators or other measurable 
       - usage: the rationale is to model situations, when multiple allocated objects are mapped to the
           same cache set.
 
-  - *False Sharing Score (FSS)*: computed as $FSS = \sum{i=0}{n}(FSS_{c_i} \times c^i)$, where
+  - *False Sharing Score (FSS)*: computed as $FSS = \sum_{i=0}^{n}(FSS_{c_i} \times c^i)$, where
       $FSS_c = MissRatio_c \times 100$. THe $c$ is a reduction coefficient, introduced to adjust
       the FSS of each cache line in relation to its ranking by miss ratio.
       - source: MemPerf: Profiling Allocator-Induced Performance Slowdowns
