@@ -5,6 +5,8 @@ Curated list of performance assets, such as links to profilers, performance anal
 ## Table of Contents
 
   - [Programming Languages](#programming-languages)
+    - [Generic](#generic)
+    - [C/C++](#c-c++)
     - [C#](#c-sharp)
     - [Python](#python)
     - [Web](#web)
@@ -13,6 +15,7 @@ Curated list of performance assets, such as links to profilers, performance anal
     - [Other Instrumentation Frameworks](#other-instrumentation-frameworks)
   - [Benchmarking](#benchmarking)
   - [Benchmarks](#benchmarks)
+  - [Allocators](#allocators)
   - [Performance Managers](#performance-managers)
   - [Other Tools](#other-tools)
   - [Other (useful) Assets](#other-useful-assets)
@@ -20,6 +23,16 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [Contributing](#contributing)
 
 ## Profiling
+
+### Generic
+
+  - [perf](https://perf.wiki.kernel.org/index.php/Main_Page): linux profiling with performance counters; state-of-the-art for profiling in Linux; we recommend to read Brendan Gregg's [perf Examples](https://www.brendangregg.com/perf.html).
+
+### C/C++
+
+  - [Coz](https://github.com/plasma-umass/coz): a profiler for C/C++ and Rust code that can measure the optimization potential of code.
+  - [gprof](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html): a hybrid instrumentation and sampling-based performance profiler.
+  - [OProfile](https://oprofile.sourceforge.io/): an open-source statistical profiler for Linux systems with low overhead.
 
 ### Python
 
@@ -57,7 +70,14 @@ Curated list of performance assets, such as links to profilers, performance anal
 
 ## Benchmarks
 
+  - [CORAL-2 Benchmarks](https://asc.llnl.gov/coral-2-benchmarks): a benchmark by advanced simulation and computing group.
   - [Renaissance Suite](https://renaissance.dev/): a modern, open, and diversified benchmark suite for the JVM.
+
+## Allocators
+
+  - [Hoard](http://hoard.org/): a fast, scalable memory-efficient memory allocator; corss-platform.
+  - [jemalloc](https://jemalloc.net/): a general purpose malloc implementation with fragmentation avoidance and scalable concurrency support.
+  - [TCMalloc](https://github.com/google/tcmalloc): a google's customized implementation of `malloc()` and `operator new`; a fast multi-threaded implementation.
 
 ## Performance Managers
 
@@ -66,14 +86,17 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [newrelic](https://newrelic.com/): continuous monitoring of programs.
 
 
-## Other tools
+## Other Tools
 
+  - [CCprof](https://github.com/proywm/CCProf): a lightweight detection of cache conflicts.
   - [FBInfer](https://fbinfer.com/): a static analysis tool that includes measuring of complexity of code.
+  - [Feather](https://github.com/WitchTools/Feather): a featherlight on-the-fly false-sharing detection tools.
   - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html): a blogpost from Brendan Gregg, which list useful tools for performance monitoring or debugging.
   - [PyVyPR](https://pyvypr.github.io/home/): a prototype framework for creating runtime analysis of Python code.
   - [Static Analysis Tools](https://github.com/analysis-tools-dev/static-analysis): a curated list of static analysis tools and linters for all programming languages.
   - [flamescope](https://github.com/Netflix/flamescope): a visualization tool for exploring different time ranges as Flame Graphs.
   - [likwid](https://github.com/RRZE-HPC/likwid): a performance monitoring and benchmarking suite.
+  - [SyncPerf](https://github.com/mejbah/SyncPerf): a lightweight profiler to detect and categorize root causes of synchronization related performance issues in multithreaded programs.
 
 ## Recommended Blogs And Sites
 
