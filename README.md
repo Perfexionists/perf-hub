@@ -8,6 +8,7 @@ Curated list of performance assets, such as links to profilers, performance anal
     - [Generic](#generic)
     - [C/C++](#c-c++)
     - [C#](#c-sharp)
+    - [Java](#java)
     - [Python](#python)
     - [Web](#web)
   - [Instrumentation](#instrumentation)
@@ -33,6 +34,11 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [Coz](https://github.com/plasma-umass/coz): a profiler for C/C++ and Rust code that can measure the optimization potential of code.
   - [gprof](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html): a hybrid instrumentation and sampling-based performance profiler.
   - [OProfile](https://oprofile.sourceforge.io/): an open-source statistical profiler for Linux systems with low overhead.
+
+### Java
+
+  - [soot](https://soot-oss.github.io/soot/): a framework for analyzing and transforming Java and android applications.
+  - [SootUp](https://soot-oss.github.io/SootUp/latest/): new rehaul of the soot static analysis framework.
 
 ### Python
 
