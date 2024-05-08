@@ -28,6 +28,7 @@ Curated list of performance assets, such as links to profilers, performance anal
 ### Generic
 
   - [perf](https://perf.wiki.kernel.org/index.php/Main_Page): linux profiling with performance counters; state-of-the-art for profiling in Linux; we recommend to read Brendan Gregg's [perf Examples](https://www.brendangregg.com/perf.html).
+  - [firefox Profiler](https://profiler.firefox.com/): a web app for Firefox performance analysis; you can import perf profiles (among other) and use it as a GUI.
 
 ### C/C++
 
@@ -53,6 +54,7 @@ Curated list of performance assets, such as links to profilers, performance anal
 ### Web
 
   - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): an open-source, automated tool for improving quality of web pages (includes performance analysis).
+  - [firefox Profiler](https://profiler.firefox.com/): a web app for Firefox performance analysis; you can import perf profiles (among other) and use it as a GUI.
 
 ## Instrumentation
 
