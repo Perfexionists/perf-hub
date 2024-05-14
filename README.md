@@ -4,29 +4,33 @@ Curated list of performance assets, such as links to profilers, performance anal
 
 ## Table of Contents
 
-  - [Programming Languages](#programming-languages)
+- [Performance Assets Hub](#performance-assets-hub)
+  - [Table of Contents](#table-of-contents)
+  - [Profiling](#profiling)
     - [Generic](#generic)
-    - [C/C++](#c-c++)
-    - [C#](#c-sharp)
+    - [C/C++](#cc)
     - [Java](#java)
     - [Python](#python)
+    - [C#](#c)
     - [Web](#web)
+    - [Go](#go)
   - [Instrumentation](#instrumentation)
-    - [eBPF](#ebpf) 
+    - [eBPF](#ebpf)
     - [Other Instrumentation Frameworks](#other-instrumentation-frameworks)
   - [Benchmarking](#benchmarking)
   - [Benchmarks](#benchmarks)
   - [Allocators](#allocators)
   - [Performance Managers](#performance-managers)
   - [Other Tools](#other-tools)
-  - [Other (useful) Assets](#other-useful-assets)
-  - [Recommended Blogs and Sites](#recommended-blogs-and-sites)
+  - [Recommended Blogs And Sites](#recommended-blogs-and-sites)
+  - [Other (useful) assets](#other-useful-assets)
   - [Contributing](#contributing)
 
 ## Profiling
 
 ### Generic
 
+  - [bytehound](https://github.com/koute/bytehound): a memory profiler for Linux.
   - [perf](https://perf.wiki.kernel.org/index.php/Main_Page): linux profiling with performance counters; state-of-the-art for profiling in Linux; we recommend to read Brendan Gregg's [perf Examples](https://www.brendangregg.com/perf.html).
   - [firefox Profiler](https://profiler.firefox.com/): a web app for Firefox performance analysis; you can import perf profiles (among other) and use it as a GUI.
 
@@ -41,9 +45,11 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [soot](https://soot-oss.github.io/soot/): a framework for analyzing and transforming Java and android applications.
   - [SootUp](https://soot-oss.github.io/SootUp/latest/): new rehaul of the soot static analysis framework.
 
-### Python
+### Python 
 
-  - [Scalene](https://github.com/plasma-umass/scalene): `Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals.`
+  - [memray](https://github.com/bloomberg/memray): :+1:
+ a memory profiler for python.
+  - [Scalene](https://github.com/plasma-umass/scalene): a Python CPU+GPU+memory profiler with AI-powered optimization proposals.
   - [py-spy](https://github.com/benfred/py-spy): a light-weight sampling profiler for Python programs.
 
 ### C#
@@ -55,6 +61,10 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/): an open-source, automated tool for improving quality of web pages (includes performance analysis).
   - [firefox Profiler](https://profiler.firefox.com/): a web app for Firefox performance analysis; you can import perf profiles (among other) and use it as a GUI.
+
+### Go
+
+  - [fgprof](https://github.com/felixge/fgprof): a sampling Go profiler for On-CPU and Off-cpu time.
 
 ## Instrumentation
 
@@ -89,9 +99,10 @@ Curated list of performance assets, such as links to profilers, performance anal
 
 ## Performance Managers
 
-  - [PerfCI](https://github.com/JesperStromblad/perfci): a toolchain for automated performance testing under Continuous Integration.
   - [gopper](https://github.com/sealuzh/gopper)/[hopper](https://github.com/sealuzh/hopper): a collection of scripts for performance history analysis of Java programs.
   - [newrelic](https://newrelic.com/): continuous monitoring of programs.
+  - [PerfCI](https://github.com/JesperStromblad/perfci): a toolchain for automated performance testing under Continuous Integration.
+  - [prometheus](https://prometheus.io/): a monitoring system and a time-series database.
 
 
 ## Other Tools
@@ -99,11 +110,13 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [CCprof](https://github.com/proywm/CCProf): a lightweight detection of cache conflicts.
   - [FBInfer](https://fbinfer.com/): a static analysis tool that includes measuring of complexity of code.
   - [Feather](https://github.com/WitchTools/Feather): a featherlight on-the-fly false-sharing detection tools.
+  - [flamescope](https://github.com/Netflix/flamescope): a visualization tool for exploring different time ranges as Flame Graphs.
+  - [hotspot](https://github.com/KDAB/hotspot): the linux perf GUI for performance analysis; standalone tool for interpreting results of perf.
+  - [likwid](https://github.com/RRZE-HPC/likwid): a performance monitoring and benchmarking suite.
   - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html): a blogpost from Brendan Gregg, which list useful tools for performance monitoring or debugging.
+  - [pprof](https://github.com/google/pprof): a tool for visualization and analysis of profiling data in perf or `*.proto` format.
   - [PyVyPR](https://pyvypr.github.io/home/): a prototype framework for creating runtime analysis of Python code.
   - [Static Analysis Tools](https://github.com/analysis-tools-dev/static-analysis): a curated list of static analysis tools and linters for all programming languages.
-  - [flamescope](https://github.com/Netflix/flamescope): a visualization tool for exploring different time ranges as Flame Graphs.
-  - [likwid](https://github.com/RRZE-HPC/likwid): a performance monitoring and benchmarking suite.
   - [SyncPerf](https://github.com/mejbah/SyncPerf): a lightweight profiler to detect and categorize root causes of synchronization related performance issues in multithreaded programs.
 
 ## Recommended Blogs And Sites
@@ -117,6 +130,9 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [bootlin](https://elixir.bootlin.com/linux/latest/source): cross reference for linux kernel sources and headers.
   - [Font Awesome](https://fontawesome.com/): a lots of free icons to be used in visualizations.
+  - [Highcharts.js](https://www.highcharts.com/): a highly scalable javascript library for building visualizations of the data.
+  - [plotly](https://plotly.com/): a library supporting many programming languages (JS, Python, etc.) for building visualizations of the data.
+  - [seaborn](https://seaborn.pydata.org/index.html): a matplotlib-based Python visualization library for building lightweight visualizations of the data.
 
 ## Contributing
 
