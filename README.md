@@ -81,6 +81,7 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [PIN](https://www.intel.com/content/www/us/en/developer/articles/tool/pin-a-dynamic-binary-instrumentation-tool.html): a dynamic binary instrumentation tool for C/C++ programs.
   - [SystemTap](https://sourceware.org/systemtap/): a dynamic binary instrumentation tools.
   - [Triton](https://triton-library.github.io/): a dynamic binary analysis library that allows one to build own program analysis tools.
+  - [javassist](https://github.com/jboss-javassist/javassist): a java bytecode engineering toolkit.
 
 ## Benchmarking
 
