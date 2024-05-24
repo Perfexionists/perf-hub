@@ -2,6 +2,10 @@
 
 Curated list of performance assets, such as links to profilers, performance analysis tools, tips for better performance, scripts for anything related to performance.
 
+- :+1: recommended tool.
+- :classical-building: old tool (possibly not maintained anymore) with last commit more that 5
+    years ago.
+
 ## Table of Contents
 
 - [Performance Assets Hub](#performance-assets-hub)
@@ -19,8 +23,10 @@ Curated list of performance assets, such as links to profilers, performance anal
     - [Other Instrumentation Frameworks](#other-instrumentation-frameworks)
   - [Benchmarking](#benchmarking)
   - [Benchmarks](#benchmarks)
+  - [Fuzz Testing and Workload Generators](#fuzz-testing-and-workload-generators)
   - [Allocators](#allocators)
   - [Performance Managers](#performance-managers)
+  - [Performance Monitoring](#performance-monitoring)
   - [Other Tools](#other-tools)
   - [Recommended Blogs And Sites](#recommended-blogs-and-sites)
   - [Other (useful) assets](#other-useful-assets)
@@ -31,19 +37,31 @@ Curated list of performance assets, such as links to profilers, performance anal
 ### Generic
 
   - [bytehound](https://github.com/koute/bytehound): a memory profiler for Linux.
+  - [ftrace](https://www.kernel.org/doc/html/v5.0/trace/ftrace.html): a tracer for debugging and/or
+      analyzing latencies and performance issues outside of user-space; focused on kernel.
   - [perf](https://perf.wiki.kernel.org/index.php/Main_Page): linux profiling with performance counters; state-of-the-art for profiling in Linux; we recommend to read Brendan Gregg's [perf Examples](https://www.brendangregg.com/perf.html).
+  - [perf-tools](https://github.com/brendangregg/perf-tools): a performance analysis tools based on
+      Linux perf_events and ftrace.
   - [firefox Profiler](https://profiler.firefox.com/): a web app for Firefox performance analysis; you can import perf profiles (among other) and use it as a GUI.
+  - [strace](https://strace.io/): a diagnostic, debugging and instructional userspace utility for
+      linux; used for monitoring between processes and linux kernel.
+  - [Intel Advisor](https://www.intel.com/content/www/us/en/developer/tools/oneapi/advisor.html#gs.9u8xng): a design and analysis tool for developing performant code; for efficient CPU Code, GPU offload, etc.
+  - [Intel VTune
+      Profiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html):
+      profiler for many languages, including C, C++, C#, Python, etc.
 
 ### C/C++
 
   - [Coz](https://github.com/plasma-umass/coz): a profiler for C/C++ and Rust code that can measure the optimization potential of code.
   - [gprof](https://ftp.gnu.org/old-gnu/Manuals/gprof-2.9.1/html_mono/gprof.html): a hybrid instrumentation and sampling-based performance profiler.
+  - [massif](https://valgrind.org/info/tools.html#massif): a heap profiler from Valgrind tool suite.
   - [OProfile](https://oprofile.sourceforge.io/): an open-source statistical profiler for Linux systems with low overhead.
 
 ### Java
 
   - [soot](https://soot-oss.github.io/soot/): a framework for analyzing and transforming Java and android applications.
   - [SootUp](https://soot-oss.github.io/SootUp/latest/): new rehaul of the soot static analysis framework.
+  - [YourKit](https://www.yourkit.com/): low overhead profiler for Java EE and Jave SE platforms.
 
 ### Python 
 
@@ -56,6 +74,8 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [perfview](https://github.com/Microsoft/perfview): a CPU and memory performance analysis tool
       mainly for windows and .NET applications.
+  - [YourKit](https://www.yourkit.com/): easy-to-use performance and memory .NET profiler for
+      Windows, Linux an macOS.
 
 ### Web
 
@@ -92,6 +112,15 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [CORAL-2 Benchmarks](https://asc.llnl.gov/coral-2-benchmarks): a benchmark by advanced simulation and computing group.
   - [Renaissance Suite](https://renaissance.dev/): a modern, open, and diversified benchmark suite for the JVM.
 
+## Fuzz Testing and Workload Generators
+
+  - [AFL](https://github.com/google/AFL) :classical-building: americal fuzzy lop: an original
+      security-oriented fuzzer (many fuzzers build upon this).
+  - [badger](https://github.com/isstac/badger): :classical-building: a complexity analysis with
+      fuzzing and symbolic execution.
+  - [perffuzz](https://github.com/carolemieux/perffuzz): :classical-building: automatic generation of pathological
+      inputs for C/C++ programs; a performance fuzztesting tool.
+
 ## Allocators
 
   - [Hoard](http://hoard.org/): a fast, scalable memory-efficient memory allocator; corss-platform.
@@ -104,6 +133,11 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [newrelic](https://newrelic.com/): continuous monitoring of programs.
   - [PerfCI](https://github.com/JesperStromblad/perfci): a toolchain for automated performance testing under Continuous Integration.
   - [prometheus](https://prometheus.io/): a monitoring system and a time-series database.
+
+## Performance Monitoring
+
+  - [Kieker](https://github.com/kieker-monitoring/kieker): a monitoring framework for application
+      performance monitoring and dynamic software analysis.
 
 
 ## Other Tools
