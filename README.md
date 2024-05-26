@@ -27,6 +27,8 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [Allocators](#allocators)
   - [Performance Managers](#performance-managers)
   - [Performance Monitoring](#performance-monitoring)
+  - [Resource Bounds Analysis](#resource-bounds-analysis)
+  - [Worst-Case Execution Time](#worst-case-execution-time)
   - [Other Tools](#other-tools)
   - [Recommended Blogs And Sites](#recommended-blogs-and-sites)
   - [Other (useful) assets](#other-useful-assets)
@@ -139,6 +141,17 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [Kieker](https://github.com/kieker-monitoring/kieker): a monitoring framework for application
       performance monitoring and dynamic software analysis.
 
+## Resource Bounds Analysis
+
+  - [CoFloCo](https://github.com/aeflores/CoFloCo): a static analysis tool for automatic symbolic
+      complexity of upper and lower bounds of imperative and recursive programs.
+
+## Worst-case Exeuction Time
+
+  - [Bound-T](http://www.bound-t.com/): static analysis of the machine code that computes upper
+      bounds on the execution time and stack usage of embedded programs.
+  - [Chronos](https://www.comp.nus.edu.sg/~rpembed/chronos/): a timing analysis of embedded
+      software.
 
 ## Other Tools
 
