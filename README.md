@@ -94,6 +94,13 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [fgprof](https://github.com/felixge/fgprof): a sampling Go profiler for On-CPU and Off-cpu time.
 
+### Energy
+
+  - [sysrapl](https://pypi.org/project/sysrapl/): an experimental eBPF-based profiler written by
+      our group's HarryMichal.
+  - [Kepler](https://github.com/sustainable-computing-io/kepler): eBPF-based profiler and ML
+      combination that estimates workload energy consumption.
+
 ## Instrumentation
 
 ### eBPF
