@@ -3,7 +3,7 @@
 Curated list of performance assets, such as links to profilers, performance analysis tools, tips for better performance, scripts for anything related to performance.
 
 - :+1: recommended tool.
-- :classical-building: old tool (possibly not maintained anymore) with last commit more that 5
+- :red_circle: old tool (possibly not maintained anymore) with last commit more that 5
     years ago.
 
 ## Table of Contents
@@ -77,6 +77,12 @@ Curated list of performance assets, such as links to profilers, performance anal
  a memory profiler for python.
   - [Scalene](https://github.com/plasma-umass/scalene): a Python CPU+GPU+memory profiler with AI-powered optimization proposals.
   - [py-spy](https://github.com/benfred/py-spy): a light-weight sampling profiler for Python programs.
+  - [Fil](https://pythonspeed.com/fil/docs/index.html): a memory profiler for Python on Linux and
+      MacOS.
+  - [pyinstrument](https://github.com/joerick/pyinstrument): a call-stack profiler for Python;
+  - [pprofile](https://github.com/vpelletier/pprofile): line-granularity, thread-aware,
+      deterministic and statistic pure-python profiler.
+  - [Austin](https://github.com/P403n1x87/austin): a python frame-stack sampler for CPython.
 
 ### C#
 
@@ -132,16 +138,17 @@ Curated list of performance assets, such as links to profilers, performance anal
 
   - [CORAL-2 Benchmarks](https://asc.llnl.gov/coral-2-benchmarks): a benchmark by advanced simulation and computing group.
   - [Renaissance Suite](https://renaissance.dev/): a modern, open, and diversified benchmark suite for the JVM.
+  - [Defects4J](https://github.com/rjust/defects4j): a database of real faults.
 
 ## Workload Generators
 
 ### Fuzz Testing
 
-  - [AFL](https://github.com/google/AFL) :classical-building: americal fuzzy lop: an original
+  - [AFL](https://github.com/google/AFL) :red_circle: americal fuzzy lop: an original
       security-oriented fuzzer (many fuzzers build upon this).
-  - [badger](https://github.com/isstac/badger): :classical-building: a complexity analysis with
+  - [badger](https://github.com/isstac/badger): :red_circle: a complexity analysis with
       fuzzing and symbolic execution.
-  - [perffuzz](https://github.com/carolemieux/perffuzz): :classical-building: automatic generation of pathological
+  - [perffuzz](https://github.com/carolemieux/perffuzz): :red_circle: automatic generation of pathological
       inputs for C/C++ programs; a performance fuzztesting tool.
 
 ## Other Performance Tools
@@ -154,6 +161,8 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [newrelic](https://newrelic.com/): continuous monitoring of programs.
   - [PerfCI](https://github.com/JesperStromblad/perfci): a toolchain for automated performance testing under Continuous Integration.
   - [prometheus](https://prometheus.io/): a monitoring system and a time-series database.
+  - [CATTO](https://catto-tool.github.io/): commit-adaptive tool for test-optimizations and plugin
+      for IntellijIdea.
 
 ### Performance Monitoring
 
@@ -184,7 +193,7 @@ Curated list of performance assets, such as links to profilers, performance anal
       complexity of upper and lower bounds of imperative and recursive programs.
   - [FBInfer](https://fbinfer.com/): a static analysis tool that includes measuring of complexity of code.
 
-### Worst-case Exeuction Time
+### Worst-case Execution Time
 
   - [Bound-T](http://www.bound-t.com/): static analysis of the machine code that computes upper
       bounds on the execution time and stack usage of embedded programs.
@@ -209,10 +218,16 @@ Curated list of performance assets, such as links to profilers, performance anal
 ### Other assets
 
   - [bootlin](https://elixir.bootlin.com/linux/latest/source): cross reference for linux kernel sources and headers.
+  - [Linux Kernel Syscall Tables](https://syscalls.mebeim.net/?table=x86/64/x64/latest): a table of
+      syscalls for linux kernel versions.
   - [Font Awesome](https://fontawesome.com/): a lots of free icons to be used in visualizations.
   - [Highcharts.js](https://www.highcharts.com/): a highly scalable javascript library for building visualizations of the data.
   - [plotly](https://plotly.com/): a library supporting many programming languages (JS, Python, etc.) for building visualizations of the data.
   - [seaborn](https://seaborn.pydata.org/index.html): a matplotlib-based Python visualization library for building lightweight visualizations of the data.
+  - [RefactoringMiner](https://github.com/tsantalis/RefactoringMiner): a library/API for detecting
+      refactorings in history of Java projects.
+  - [RefDiff](https://github.com/aserg-ufmg/RefDiff): a tool to mine refactorings in the commit
+      history of git repositories.
 
 ## Contributing
 
