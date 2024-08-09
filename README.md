@@ -150,6 +150,7 @@ Curated list of performance assets, such as links to profilers, performance anal
       fuzzing and symbolic execution.
   - [perffuzz](https://github.com/carolemieux/perffuzz): :red_circle: automatic generation of pathological
       inputs for C/C++ programs; a performance fuzztesting tool.
+  - [buzzer](https://github.com/google/buzzer): an eBPF fuzzer toolchain.
 
 ## Other Performance Tools
 
