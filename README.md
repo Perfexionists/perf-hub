@@ -70,6 +70,8 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [soot](https://soot-oss.github.io/soot/): a framework for analyzing and transforming Java and android applications.
   - [SootUp](https://soot-oss.github.io/SootUp/latest/): new rehaul of the soot static analysis framework.
   - [YourKit](https://www.yourkit.com/): low overhead profiler for Java EE and Jave SE platforms.
+  - [perf-map-agent](https://github.com/jvm-profiling-tools/perf-map-agent): an agent that
+      generates map of symbols for perf for JIT compiled methods.
 
 ### Python 
 
