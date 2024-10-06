@@ -126,6 +126,7 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [Triton](https://triton-library.github.io/): a dynamic binary analysis library that allows one to build own program analysis tools.
   - [javassist](https://github.com/jboss-javassist/javassist): a java bytecode engineering toolkit.
   - [PyVyPR](https://pyvypr.github.io/home/): a prototype framework for creating runtime analysis of Python code.
+  - [LTTng](https://lttng.org/): an open source tracing framework for Linux.
 
 ## Benchmarking
 
@@ -141,6 +142,12 @@ Curated list of performance assets, such as links to profilers, performance anal
   - [CORAL-2 Benchmarks](https://asc.llnl.gov/coral-2-benchmarks): a benchmark by advanced simulation and computing group.
   - [Renaissance Suite](https://renaissance.dev/): a modern, open, and diversified benchmark suite for the JVM.
   - [Defects4J](https://github.com/rjust/defects4j): a database of real faults.
+  - [fio: Flexible I/O Tester](https://github.com/axboe/fio): flexible benchmarking for
+      filesystems.
+  - [Bonnie++](https://www.coker.com.au/bonnie++/): benchmark suite focused on file system
+      performance.
+  - [Bonnie](https://www.textuality.com/bonnie/): an original benchmark suite focused on UNIX file
+      system performance.
 
 ## Workload Generators
 
